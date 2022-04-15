@@ -1,6 +1,12 @@
 # Database Starter Composite Action 
 
-composite action to help start de peristence infraest
+This is just a composite action to help start the persistence databases during the unit tests and benchmark. This starter usage are shown below.
+
+```yaml
+steps:
+    - id: database
+      uses: posteris/ci-database-starter@main
+```
 
 ## PostgreSQL
 
