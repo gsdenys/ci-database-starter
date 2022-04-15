@@ -10,15 +10,11 @@ inputs:
     required: false
     default: true
 
-# outputs:
-#   random-number:
-#     description: "Random number"
-#     value: ${{ steps.random-number-generator.outputs.random-id }}
-
 runs:
   using: "composite"
   steps:
     - name: Setup PostgreSQL
+      if: ${{ github.event.inputs.postgres }}
       uses: Harmon758/postgresql-action@v1.0.0
       with:
         postgresql db: postgres
@@ -26,6 +22,7 @@ runs:
         postgresql password: postgres
 
     - name: Setup MySQL
+      if: ${{ github.event.inputs.postgres }}
       uses: mirromutth/mysql-action@v1.1
       with:
         mysql root password: mysql
