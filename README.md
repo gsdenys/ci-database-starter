@@ -23,4 +23,4 @@ steps:
 * __Port:__     3306
 * __User:__     root
 * __Password:__ mysql
-* __Database:__ mysqls
+* __Database:__ mysql
