@@ -16,14 +16,12 @@ runs:
       with:
         mysql root password: mysql
         mysql database: mysql
-    
-    # - name: ClickHouse Server Action
-    #   # You may pin to the exact commit or the version.
-    #   # uses: metrico/clickhouse-server-action@2bcff7db46f142a4c31df33512905bbf90b72bc0
-    #   uses: metrico/clickhouse-server-action@v1.0.0
-
 
     - name: ClickHouse in GitHub Actions
-      # You may pin to the exact commit or the version.
-      # uses: EpicStep/clickhouse-github-action@1d58245e87a8208d2f9dbf84306b90241bcb4aa3
       uses: EpicStep/clickhouse-github-action@v1.0.0
+
+    - name: mssql suite
+      uses: potatoqualitee/mssqlsuite@v1.1
+      with:
+        install: 
+        sa-password: sa           
