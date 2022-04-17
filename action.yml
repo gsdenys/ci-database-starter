@@ -24,4 +24,4 @@ runs:
       uses: potatoqualitee/mssqlsuite@v1.1
       with:
         install: localdb
-        sa-password: sa           
+        sa-password: sa#Adm01
