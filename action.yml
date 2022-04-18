@@ -23,5 +23,5 @@ runs:
     - name: mssql suite
       uses: potatoqualitee/mssqlsuite@v1.1
       with:
-        install: localdb
+        install: sqlengine
         sa-password: Adm1n123
