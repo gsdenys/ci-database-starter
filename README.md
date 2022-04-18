@@ -30,7 +30,7 @@ steps:
 * __Host:__     localhost
 * __Port:__     1433
 * __User:__     sa
-* __Password:__ sa#Adm01
+* __Password:__ Adm1n123
 * __Database:__ master
 
 ## Clickhouse
