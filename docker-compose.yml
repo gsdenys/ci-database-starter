@@ -28,7 +28,7 @@ services:
     - "9009:9009"
   
   mssql-server:
-    container_name: ci-database-mssql
+    container_name: ci-database-mssql 
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     environment:
       ACCEPT_EULA: "Y"
