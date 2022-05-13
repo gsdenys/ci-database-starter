@@ -19,13 +19,13 @@ services:
     ports:
       - "3306:3306"
 
-  clickhouse:
-    container_name: ci-database-clickhouse
-    image: yandex/clickhouse-server
-    ports:
-    - "8123:8123"
-    - "9000:9000"
-    - "9009:9009"
+  # clickhouse:
+  #   container_name: ci-database-clickhouse
+  #   image: yandex/clickhouse-server
+  #   ports:
+  #   - "8123:8123"
+  #   - "9000:9000"
+  #   - "9009:9009"
   
   mssql-server:
     container_name: ci-database-mssql 
