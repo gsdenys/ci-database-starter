@@ -25,9 +25,9 @@ func TestRemoveFromTestData(t *testing.T) {
 			want: data,
 		},
 		{
-			name: Clickhouse,
+			name: MySQL,
 			args: args{
-				toRemove: Clickhouse,
+				toRemove: MySQL,
 				myData:   data,
 			},
 			want: append(data[:1], data[2:]...),
