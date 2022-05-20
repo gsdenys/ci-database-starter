@@ -17,8 +17,8 @@ runs:
         mysql root password: mysql
         mysql database: mysql
 
-    # - name: ClickHouse in GitHub Actions
-    #   uses: EpicStep/clickhouse-github-action@v1.0.0
+    - name: ClickHouse in GitHub Actions
+      uses: EpicStep/clickhouse-github-action@v1.0.0
 
     - name: mssql suite
       uses: potatoqualitee/mssqlsuite@v1.1

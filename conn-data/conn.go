@@ -23,13 +23,13 @@ const (
 )
 
 var data = []Test{
-	// {
-	// 	Name: Clickhouse,
-	// 	Args: Args{
-	// 		Type: database.Clickhouse,
-	// 		DSN:  "tcp://localhost:9000?database=default",
-	// 	},
-	// },
+	{
+		Name: Clickhouse,
+		Args: Args{
+			Type: database.Clickhouse,
+			DSN:  "tcp://localhost:9000?database=default",
+		},
+	},
 	{
 		Name: MSSQL,
 		Args: Args{
