@@ -5,7 +5,7 @@ This is just a composite action to help start the persistence databases during t
 ```yaml
 steps:
     - id: database
-      uses: posteris/ci-database-starter@main
+      uses: gsdenys/ci-database-starter@main
 ```
 
 ## PostgreSQL
